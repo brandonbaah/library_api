@@ -18,33 +18,33 @@ db.books.insert([
 	read: false
 },
 {
-	title: 'A Journey into the Center of the Earth',
-	genre: 'Science Fiction',
-	author: 'Jules Verne',
+	title: 'Secure By Design',
+	genre: 'Programming',
+	author: 'Daniel Deogun, Dan Bergh Johnsson, Daniel Sawano',
 	read: false
 },
 {
-	title: 'The Dark World',
-	genre: 'Fantasy',
-	author: 'Henry Kuttner',
+	title: 'Career Rehab',
+	genre: 'Business & Money',
+	author: 'Kanika Tolver',
 	read: false
 },
 {
-	title: 'The Wind in the Willows',
-	genre: 'Fantasy',
-	author: 'Kenneth Grahame',
+	title: 'Outliers',
+	genre: 'Social Science',
+	author: 'Malcolm Gladwell',
 	read: false
 },
 {
-	title: 'Life On The Mississippi',
-	genre: 'History',
-	author: 'Mark Twain',
+	title: 'Manhood Restored',
+	genre: 'Christian Literature',
+	author: 'Eric Mason',
 	read: false
 },
 {
-	title: 'Childhood',
+	title: 'The Emotionally Healthy Leader',
 	genre: 'Biography',
-	author: 'Lev Nikolayevich Tolstoy',
+	author: 'Peter Scazzero',
 	read: false
 }
 ])
