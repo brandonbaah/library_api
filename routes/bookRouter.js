@@ -37,7 +37,7 @@ function routes(Book) {
     });
   });
   bookRouter.route('/books/:bookId')
-  .get((req, res) => req.json(req.book))
+  .get((req, res) => res.json(req.book))
     .put((req, res) => {
       const { book } = req;
         book.title = req.body.title;
@@ -70,6 +70,14 @@ function routes(Book) {
       }
 
       return res.json(book);
+    });
+  })
+  .delete((req, res) =>{
+    req.book.remove((err) =>{
+      if(err){
+        return res.send(err);
+      }
+      return res.sendStatus(204);
     });
   });
 
